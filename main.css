@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+h2{
+    padding-bottom: 30px;
+}
+form input, textarea{
+    display: block;
+    height: 30px;
+    width: 550px;
+    margin-top: 7px;
+    padding: 10px;
+}
+textarea{
+    font-size: 13px;
+    resize: none;
+}
+button{
+    display: block;
+    height: 30px;
+    width: 550px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+    background-color: rgb(152, 194, 110);
+    border: none;
+}
+.montante {
+    padding: 13px;
+    background-color: rgb(152, 194, 110);
+    color: #fff;
+    display: none;
+    margin-top: 5px;
+}
+.name{
+    font-size: 13px;
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: none;
+}
+input.erro{
+    border: red;
+    color: red;
+    outline-color:  red;
+}
