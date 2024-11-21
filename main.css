@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #e7e7e7;
+    margin: 30px 50px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+header img{
+    width: 50px;
+}
+
+.subtitulo{
+    padding-top: 20px;
+}
+
+form{
+    background-color: #e7e7e7;
+    width: 60vh;
+    height: 20vh;
+    text-align: center;
+    margin: auto;
+    display: none;
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+button{
+    padding:5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: green;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+}
+
+#botao-cancelar{
+    background-color: red;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 20px;
+    background-color: #e7e7e7;
+    width: 395px;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+ul li{
+    
+    margin-top: px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+    
+    
+}
+
+li.completada{
+    text-decoration: line-through
+    
+}
